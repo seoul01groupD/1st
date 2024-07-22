@@ -5,7 +5,7 @@ def find_palin(number):
         if number[0] != number[-1]:
             return 'no'
         else:
-            number = number.replace(number[0], '', 2)
+            number = number[1:-1]
             return find_palin(number)
 
 while(True):
