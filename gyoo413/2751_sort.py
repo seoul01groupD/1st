@@ -22,7 +22,7 @@ def merge_sort(lst):
 
     i = j = 0
     sorted_list = []
-    l = length // 2; r = (length // 2) + 1
+    l = length // 2; r = (length + 1) // 2
 
     while i < l and j < r:
         if left[i] < right[j]:
