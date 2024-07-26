@@ -26,7 +26,10 @@ def word_stack(lst):
 
         index += 1
 
-    return 'yes'
+    if len(my_stack) == 0:
+        return 'yes'
+    else:
+        return 'no'
 
 while True:
     s = list(input())
